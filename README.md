@@ -1,2 +1,2 @@
 # PlaywrightAutomationProject
-This repository contais Playwright Autiomation tests
+This repository contains Playwright Automation tests

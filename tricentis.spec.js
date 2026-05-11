@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Tricentis Demo Web Shop Order Placement Test', () => {
+test.describe('Tricentis Demo Web Shop Order Place Test', () => {
 
 test('test', async ({ page }) => {
   await page.goto('https://demowebshop.tricentis.com/');

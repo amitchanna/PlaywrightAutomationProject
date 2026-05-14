@@ -14,6 +14,12 @@ export default defineConfig({
   reporter: 'html',
   use: {
     //baseURL: 'https://demo.guru99.com/test/newtours',
+    baseURL: 'https://mdev.vitalitydeveloper.com',
+    extraHTTPHeaders: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'VitalityActive/1.0.0.432/2.0 (iPhone 5,4; iOS 10.1)',
+      'Authorization': `Bearer ${process.env.API_TOKEN || ''}`,
+    },
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
